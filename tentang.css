@@ -1,0 +1,78 @@
+.tentang-section {
+  background-color: #f8f9fa;
+}
+
+.tentang-section .card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.tentang-section h2 {
+  font-size: 2.5rem;
+}
+
+.tentang-section h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.tentang-section video {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tentang-section .btn-link {
+  color: #0d6efd;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.tentang-section .btn-link:hover {
+  text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.navbar {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+.nav-menu li a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#carouselExample {
+    margin-top: 40px; /* atau atur sesuai keinginan, misal 50px */
+}
