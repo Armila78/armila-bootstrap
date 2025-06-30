@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="artikel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+  <body>
+    <div> <h1 style="text-align: center;"> WELCOME TO MY WEBSITE</h1></div>
+    <div class="container text-center">
+  <div class="row">
+    <div class="col">
+    
+    </div>
+    <div class="col">
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="index.html" >BERANDA</a></li>
+            <li><a href="PROFIL.html">PROFIL</a></li>
+            <li><a href="galeri.html">GALERI</a></li>
+            <li><a href="artikel.html">ARTIKEL</a></li>
+            <li><a href="tentang.html">TENTANG</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <h1 class="mb-4 text-center">Artikel Terbaru</h1>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- Artikel 1 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Mengapa UX Penting dalam Desain Website?</h5>
+          <p class="card-text text-truncate">User Experience (UX) menentukan bagaimana pengguna berinteraksi dengan website...</p>
+          <button class="btn btn-primary preview-btn" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#previewModal"
+                  data-title="Mengapa UX Penting dalam Desain Website?"
+                  data-content="User Experience (UX) menentukan bagaimana pengguna berinteraksi dengan website. Artikel ini membahas prinsip-prinsip dasar UX dan cara menerapkannya untuk meningkatkan konversi.">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Artikel 2 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Mengenal Framework Front-End Populer 2025</h5>
+          <p class="card-text text-truncate">React, Vue, dan Svelte masih menjadi favorit di kalangan developer...</p>
+          <button class="btn btn-primary preview-btn" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#previewModal"
+                  data-title="Mengenal Framework Front-End Populer 2025"
+                  data-content="React, Vue, dan Svelte masih menjadi favorit di kalangan developer. Artikel ini membandingkan fitur dan performa ketiganya di tahun 2025.">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Artikel 3 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Tips Efektif Belajar Coding untuk Pemula</h5>
+          <p class="card-text text-truncate">Mulai dari memilih bahasa pemrograman hingga membangun proyek sederhana...</p>
+          <button class="btn btn-primary preview-btn" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#previewModal"
+                  data-title="Tips Efektif Belajar Coding untuk Pemula"
+                  data-content="Mulai dari memilih bahasa pemrograman, menggunakan dokumentasi, hingga membangun proyek sederhana. Temukan tips praktis yang akan mempercepat proses belajar Anda.">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Artikel 4 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Cara Membuat Portfolio Developer yang Menarik</h5>
+          <p class="card-text text-truncate">Artikel ini membahas struktur dan elemen penting portofolio developer...</p>
+          <button class="btn btn-primary preview-btn" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#previewModal"
+                  data-title="Cara Membuat Portfolio Developer yang Menarik"
+                  data-content="Artikel ini membahas struktur, elemen penting, serta tips visual dan teknis dalam membangun portofolio developer yang profesional dan menarik perhatian recruiter.">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Artikel 5 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Perkembangan AI dan Dampaknya pada Industri Digital</h5>
+          <p class="card-text text-truncate">Kecerdasan buatan semakin mendominasi dunia teknologi...</p>
+          <button class="btn btn-primary preview-btn" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#previewModal"
+                  data-title="Perkembangan AI dan Dampaknya pada Industri Digital"
+                  data-content="Kecerdasan buatan semakin mendominasi. Dari chatbot hingga sistem rekomendasi, simak bagaimana AI mengubah wajah industri teknologi.">
+            Preview
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Preview -->
+<div class="modal fade" id="previewModal" tabindex="-1" aria-labelledby="previewModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="previewModalLabel">Preview Artikel</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+      </div>
+      <div class="modal-body">
+        <h4 id="modalTitle"></h4>
+        <p id="modalContent"></p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+        <p>&copy; 2025 My Website. Armila Rumalutur .</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+  </html>
